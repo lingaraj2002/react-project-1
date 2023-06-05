@@ -1,0 +1,298 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all 0.6s;
+    font-family: "Roboto", "Arial", sans-serif;
+  }
+  
+  // login Page
+  
+  .UI {
+    width: 50%;
+    height: 80vh;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 40px 0;
+    border-radius: 6px;
+    h1 {
+      width: 100%;
+      text-align: center;
+    }
+    .youtube_logo {
+      display: flex;
+      justify-content: center;
+      width: 50%;
+      img {
+        max-width: 100%;
+      }
+    }
+    form {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+    input {
+      width: 100%;
+      padding: 5px;
+      margin: 10px 0;
+    }
+  
+    .btn {
+      width: 60%;
+      border-radius: 20px;
+      margin-top: 20px;
+      background: linear-gradient(90deg, #2b2b9c, #ff00f29d);
+    }
+  
+    Button:hover {
+      border: none;
+    }
+  }
+  
+  .css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+    color: #646262 !important;
+  }
+  
+  .css-1b0ve20 > :not(style) {
+    display: flex;
+  }
+  
+  .css-r47a1p-MuiFormControl-root {
+    width: 100%;
+  }
+  
+  // Home LogOut Page
+  
+  .homePage {
+    display: flex;
+    flex-wrap: wrap;
+    .sideNav {
+      width: 20%;
+    }
+  }
+  
+  .home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    width: 80%;
+    margin: auto;
+    .homeCard {
+      overflow: hidden;
+      a {
+        text-decoration: none;
+      }
+      .home_thump_img img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+      }
+      .home_thump_img img:hover {
+        border-radius: 0%;
+      }
+      #home_logo_hed4_para {
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        .home_logo_img {
+          width: 20%;
+        }
+        .home_logo_img img {
+          width: 50px;
+          height: 50px;
+          border-radius: 50px;
+        }
+        .home_hed_4_para {
+          width: 75%;
+          h4 {
+            color: #000;
+          }
+          p {
+            color: #646262;
+            font-size: small;
+          }
+        }
+      }
+    }
+  }
+  
+  .homeCard {
+    width: 30% !important;
+  }
+  
+  @media (min-width: 320px) {
+    .homeCard {
+      width: 100% !important;
+    }
+    .home {
+      width: 100%;
+      gap: 10px;
+      .homeCard {
+        overflow: hidden;
+        .home_thump_img img {
+          max-width: 100%;
+          height: auto;
+          border-radius:0;
+        }
+        .home_thump_img img:hover {
+          border-radius: 0;
+        }
+        #home_logo_hed4_para {
+          margin-top: 5px;
+          gap: 5px;
+          .home_logo_img {
+            width: 15%;
+          }
+          .home_logo_img img {
+            width: 30px;
+            height: 30px;
+            border-radius: 50px;
+          }
+          .home_hed_4_para {
+            width: 80%;
+            h4 {
+              color: #000;
+              font-size: 11px;
+            }
+            p {
+              color: #646262;
+              font-size: 8px;
+              display: inline;
+              padding: 0 5px;
+            }
+           
+          }
+         
+        }
+        
+      }
+    }
+    
+  }
+
+  @media (min-width: 690px) {
+    .homeCard {
+      width: 100% !important;
+    }
+    .home {
+      width: 100%;
+      padding-left: 50px;
+      gap: 10px;
+      .homeCard {
+        overflow: hidden;
+        .home_thump_img img {
+          max-width: 100%;
+          height: auto;
+          border-radius:0;
+        }
+        .home_thump_img img:hover {
+          border-radius: 0;
+        }
+        #home_logo_hed4_para {
+          margin-top: 5px;
+          gap: 5px;
+          .home_logo_img {
+            width: 15%;
+          }
+          .home_logo_img img {
+            width: 30px;
+            height: 30px;
+            border-radius: 50px;
+          }
+          .home_hed_4_para {
+            width: 80%;
+            h4 {
+              color: #000;
+              font-size: 11px;
+            }
+            p {
+              color: #646262;
+              font-size: 8px;
+              display: inline;
+              padding: 0 5px;
+            }
+           
+          }
+         
+        }
+        
+      }
+    }
+    
+  }
+
+  @media(min-width:1024px){
+    .home {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding-left: 0;
+      gap: 30px;
+      width: 80%;
+      margin: auto;
+      .homeCard {
+        overflow: hidden;
+        a {
+          text-decoration: none;
+        }
+        .home_thump_img img {
+          max-width: 100%;
+          height: auto;
+          border-radius: 10px;
+        }
+        .home_thump_img img:hover {
+          border-radius: 0%;
+        }
+        #home_logo_hed4_para {
+          margin-top: 10px;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 10px;
+          .home_logo_img {
+            width: 20%;
+          }
+          .home_logo_img img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;
+          }
+          .home_hed_4_para {
+            width: 75%;
+            h4 {
+              color: #000;
+            }
+            p {
+              color: #646262;
+              font-size: small;
+            }
+          }
+        }
+      }
+    }
+    
+    .homeCard {
+      width: 30% !important;
+    }
+  }
+  
+  @media (min-width: 690px) {
+    .homeCard {
+      width: 40% !important;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .homeCard {
+      width: 30% !important;
+    }
+  }

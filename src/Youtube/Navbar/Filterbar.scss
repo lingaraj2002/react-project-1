@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#filterbar{
+    width: 100%;
+} 
+.filterbar-row{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    background: #fff;
+    padding-bottom: 10px;
+}
+.css-1aquho2-MuiTabs-indicator {
+    width: 0 !important;
+    height: 0 !important;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    border: 1px solid #f2f2f2 !important;
+    border-radius: 10px !important;
+    background: #f2f2f2 !important;
+    color: #000 !important;
+    min-height: 0 !important;
+    min-width: 50px !important;
+    padding: 7px 14px !important;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    border: 1px solid #b1adad !important;
+    border-radius: 10px !important;
+    background: #000 !important;
+    color: #fff !important;
+}
+.css-heg063-MuiTabs-flexContainer {
+    gap: 20px;
+}
+

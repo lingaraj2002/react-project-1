@@ -1,0 +1,774 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#details-sec{   
+    padding: 0;
+}
+.details-container{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.details-row-1{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.details-col-1{
+    width: 100%;
+}
+.details-video{
+    max-width: 100%;
+} 
+.details-col-2{
+    padding: 10px 0;
+}
+.details-col-3{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.details-description-1{
+    display: flex;
+}
+.details-channel-icon{
+    width: 10%;
+}
+.details-channel{
+    max-width: 100%;
+    border-radius: 50%;
+}
+.details-channel-name{
+    width: 40%;
+    padding: 0 5px;
+    font-size: 15px;
+}
+.details-channel-subscribe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#subscribe{
+    padding: 7px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+}
+.details-description-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.details-like{
+    width: 30%;
+    display: flex;
+    background-color: #0000000d;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+    padding: 0px 10px;
+}
+#thumbsup{
+    background-color: rgba(128, 128, 128, 0);
+    border: none;
+    padding: 0 10px;
+}
+#thumbsdown{
+    background-color: rgba(128, 128, 128, 0);
+    border: none;
+    border-left: 1px solid #0000000d;
+    padding: 0 10px;
+}
+#like-count{
+    padding-right: 15px;
+}
+.details-share{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.details-download{
+    width:25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.details-extra{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#like-count{
+    border-right: 1px solid gray;
+}
+#share{
+    border-radius: 25px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 10px;
+}
+#download{
+    border-radius: 25px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 10px;
+}
+#extra{
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 10px;
+}
+.details-col-4{
+    padding: 20px 0;
+}
+
+.details-video-description{
+    background-color: #0000000d;
+    border-radius: 10px;
+    padding: 10px;
+}
+.details-col-5{
+    padding: 10px 0;
+}
+.details-comment-count{
+    display: flex;
+}
+.comment-count{
+    width: 15%;
+}
+.comment-sort{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details-comment{
+    padding: 10px 0;
+}
+.details-row-2{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 0;
+    width: 30%;
+    border-top: 1px solid gray;
+}
+.details-card-2{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 7px 0;
+}
+.details-right-video{
+    width: 40%;
+}
+.details-right-image{
+    max-width: 100%;
+}
+.details-right-description{
+    width: 60%;
+    padding:0  7px;
+}
+.details-name{
+    font-size: 13px;
+}
+.details-channel{
+    font-size: 10px;
+}
+.details-content{
+    display: flex;
+}
+.details-ago{
+    padding: 0 10px;
+}
+.details-row-2:hover  .details-row-1{
+   position: static;
+}
+.comment-btn-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:10px ;
+}
+.comment-icon{
+    display: flex;
+    gap: 10px;
+}
+.comment-btn{
+    display: flex;
+    gap: 10px;
+}
+.comment-cancel {
+    Button {
+        background-color: transparent;
+    }
+    Button:hover {
+        background-color: #e8def8;
+    }
+}
+.comment-para{
+    font-size: 12px;
+    span {
+        color: blue;
+    }
+    span:hover {
+        cursor: pointer;
+    }
+}
+.margin-img{
+    margin-right: 20px;
+    
+    width: 40px;
+    height: 40px;    
+    border-radius: 50%;
+  }
+  //-------------------------commentSection----------------//
+  .comment-section{
+        padding:25px;
+        border-radius: 10px;
+        background-color: #0000000d; ;
+    .userNameCom{
+      display: flex;
+      flex-wrap: wrap;
+      p{
+        display:inline-block;
+      }
+      
+      .userNameInCom{
+        font-size: 16px;
+        font-weight: 600;
+        color:#1d1d1d;
+      }
+      .timecomment{
+        color:#b1adad;
+        font-size: 12px;
+        font-weight: 500;
+        margin-left: 10px;
+      }
+    }
+    .user-comment{
+      overflow-wrap: anywhere;
+      margin-left: 60px;
+      margin-top: -20px;
+      margin-bottom: 40px;
+      .details-like{
+        margin-top: 5px;
+        padding:0;
+        justify-content: flex-start;
+        background: transparent;
+        width:50%;
+      }
+    }
+  }
+
+//filter bar ..............................................................
+#details-filterbar{
+    width: 100%;
+}
+
+// PlayVideo 2nd Page 
+  #play-video {
+    width: 85%;
+    margin: 20px auto auto;
+    .video-div {
+      width: 100%;
+      video {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+  
+  @media (min-width: 280px), (max-width: 280px) {
+    #play-video {
+      width: 90%;
+      margin: 70px auto auto;
+      .video-div {
+        width: 100%;
+      }
+    }
+  }
+
+  //responsive......................................
+  @media(min-width:320px){
+    .details-container{
+        width: 100%;
+    }
+    .details-row-1{
+        width: 100%;
+    }
+    .details-col-1{
+        width: 100%;
+    }
+    .details-video{
+        max-width: 100%;
+    } 
+    .details-col-2{
+        padding:5px 0;
+        font-size: 9px;
+    }
+    .details-col-3{
+        padding: 10px 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .details-description-1{
+        display: flex;
+        width: 90%;
+        margin: auto;
+    }
+    .details-channel-icon{
+        width: 13%;
+    }
+    .details-channel{
+        max-width: 100%;
+        border-radius: 50%;
+    }
+    .details-channel-name{
+        width: 50%;
+        padding: 0 5px;
+        font-size: 12px;
+    }
+    #subscribe{
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+    .details-description-2{
+        width: 90%;
+        margin: auto;
+        justify-content: space-between;
+        padding: 7px 0;
+    }
+    .details-like{
+        width: 40%;
+        padding: 0px 5px;
+    }
+    #like-count{
+        padding-right: 10px;
+    }
+    .details-share{
+       width: 20%;
+    }
+    .details-download{
+        display: none;
+    }
+    .details-extra{
+        width: 10%;
+    }
+    #extra{
+        padding: 8px 10px;
+    }
+    .details-col-4{
+        padding:5px 0;
+        font-size: 9px;
+    }
+    .details-col-5{
+        padding: 10px 5px;
+    }
+    .comment-count{
+        width: 40%;
+    }
+    .details-comment{
+        padding: 5px 0;
+    }
+    .comment-like{
+        display: flex;
+        justify-content: space-between;
+        padding: 7px 0;
+    }
+    .details-row-2{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px 0;
+        width: 100%;
+        border-top: 1px solid gray;
+    }
+    .details-card-2{
+        width: 95%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 7px 0;
+    }
+    .details-right-video{
+        width: 100%;
+    }
+    .details-right-image{
+        max-width: 100%;
+    }
+    .details-right-description{
+        width: 100%;
+        padding:0  7px;
+    }
+    .details-name{
+        font-size: 10px;
+    }
+    .details-channel{
+        font-size: 10px;
+    }
+    .details-content{
+        display: flex;
+        font-size: 10px;
+    }
+    .details-ago{
+        padding: 0 10px;
+        
+    }
+    .comment-btn-row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding:10px ;
+    }
+    .comment-icon{
+        display: flex;
+        gap: 10px;
+    }
+    .comment-btn{
+        display: flex;
+        gap: 10px;
+    }
+    .comment-cancel {
+        Button {
+            background-color: transparent;
+        }
+        Button:hover {
+            background-color: #e8def8;
+        }
+    }
+    .comment-para{
+        font-size: 12px;
+        span {
+            color: blue;
+        }
+        span:hover {
+            cursor: pointer;
+        }
+    }
+    .margin-img{
+        margin-right: 20px;
+        
+        width: 40px;
+        height: 40px;    
+        border-radius: 50%;
+      }
+  }
+
+  @media(min-width:690px){
+    
+    .details-col-2{
+        font-size: 13px;
+    }
+    .details-description-1{
+        width: 40%;
+        margin: 0;
+    }
+    .details-channel-icon{
+        width: 15%;
+    }
+    .details-channel-name{
+        padding: 5px ;
+    }
+    #subscribe{
+        padding: 10px 13px;
+        font-size: 12px;
+    }
+    .details-description-2{
+        width: 60%;
+        margin:0;
+    }
+    .details-like{
+        width: 30%;
+    }
+    .details-download{
+        display: block;
+    }
+    .details-col-4{
+        padding:5px 0;
+        font-size: 9px;
+    }
+    .details-video-description{
+        font-size: 13px;
+    }
+    .comment-like{
+        width: 30%;
+    }
+    .details-row-2{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px 0;
+        width: 100%;
+        border-top: 1px solid gray;
+    }
+    .details-card-2{
+        width: 95%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 7px 0;
+    }
+    .details-right-video{
+        width: 20%;
+    }
+    .details-right-image{
+        max-width: 100%;
+    }
+    .details-right-description{
+        width: 80%;
+        padding:0  7px;
+    }
+    .details-name{
+        font-size: 10px;
+    }
+    .details-channel{
+        font-size: 10px;
+    }
+    .details-content{
+        display: flex;
+        font-size: 10px;
+    }
+    .details-ago{
+        padding: 0 10px;
+        
+    }
+    .comment-btn-row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding:10px ;
+    }
+    .comment-icon{
+        display: flex;
+        gap: 10px;
+    }
+    .comment-btn{
+        display: flex;
+        gap: 10px;
+    }
+    .comment-cancel {
+        Button {
+            background-color: transparent;
+        }
+        Button:hover {
+            background-color: #e8def8;
+        }
+    }
+    .comment-para{
+        font-size: 12px;
+        span {
+            color: blue;
+        }
+        span:hover {
+            cursor: pointer;
+        }
+    }
+    .margin-img{
+        margin-right: 20px;
+        
+        width: 40px;
+        height: 40px;    
+        border-radius: 50%;
+      }
+  }
+
+  @media(min-width:1024px){
+    .details-container{
+        width: 95%;
+        margin: auto;
+    }
+    .details-row-1{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+    .details-col-1{
+        width: 100%;
+    }
+    .details-col-2{
+        padding: 10px 0;
+    }
+    .details-col-3{
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .details-description-1{
+        display: flex;
+    }
+    .details-channel-icon{
+        width: 10%;
+    }
+    .details-channel{
+        max-width: 100%;
+        border-radius: 50%;
+    }
+    .details-channel-name{
+        width: 40%;
+        padding: 0 5px;
+        font-size: 15px;
+    }
+    .details-channel-subscribe{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #subscribe{
+        padding: 7px 10px;
+        background-color: black;
+        color: white;
+        border-radius: 25px;
+    }
+    .details-description-2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+    }
+    .details-like{
+        width: 30%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 25px;
+        padding: 0px 10px;
+    }
+    #thumbsup{
+        padding: 0 10px;
+    }
+    #thumbsdown{
+        padding: 0 10px;
+    }
+    #like-count{
+        padding-right: 15px;
+    }
+    .details-share{
+        width: 20%;
+    }
+    .details-download{
+        width:25%;
+    }
+    .details-extra{
+        width: 10%;
+    }
+    #like-count{
+        border-right: 1px solid gray;
+    }
+    #share{
+        padding: 6px 10px;
+    }
+    #download{
+        padding: 6px 10px;
+    }
+    #extra{
+        padding: 7px 10px;
+    }
+    .details-col-4{
+        padding: 20px 0;
+    }
+    
+    .details-video-description{
+        padding: 10px;
+    }
+    .details-col-5{
+        padding: 10px 0;
+    }
+    .details-comment-count{
+        display: flex;
+    }
+    .comment-count{
+        width: 15%;
+    }
+    .details-comment{
+        padding: 10px 0;
+    }
+    .details-row-2{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 15px 0;
+        width: 30%;
+    }
+    .details-card-2{
+        width: 95%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 7px 0;
+    }
+    .details-right-video{
+        width: 40%;
+    }
+    .details-right-image{
+        max-width: 100%;
+    }
+    .details-right-description{
+        width: 60%;
+        padding:0  7px;
+    }
+    .details-name{
+        font-size: 13px;
+    }
+    .details-channel{
+        font-size: 10px;
+    }
+    .details-content{
+        display: flex;
+    }
+    .details-ago{
+        padding: 0 10px;
+    }
+    .details-row-2:hover  .details-row-1{
+       position: static;
+    }
+    .comment-btn-row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding:10px ;
+    }
+    .comment-icon{
+        display: flex;
+        gap: 10px;
+    }
+    .comment-btn{
+        display: flex;
+        gap: 10px;
+    }
+    .comment-cancel {
+        Button {
+            background-color: transparent;
+        }
+        Button:hover {
+            background-color: #e8def8;
+        }
+    }
+    .comment-para{
+        font-size: 12px;
+        span {
+            color: blue;
+        }
+        span:hover {
+            cursor: pointer;
+        }
+    }
+    .margin-img{
+        margin-right: 20px;
+        
+        width: 40px;
+        height: 40px;    
+        border-radius: 50%;
+      }   
+  }
+  

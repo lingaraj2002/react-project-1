@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#topnavbar{
+    position:sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+}
+.navbar-container{
+    width: 95%;
+    margin: auto;  
+}
+.navbar-row{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-col-1{
+    width: 12%;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navbar-col-2{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.userImage{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+}
+.navbar-menu{
+    padding: 5px;
+}
+.youtube-icon{
+    max-width: 100%;
+}
+.navbar-search-card{
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+}
+.navbar-search-input{
+    text-align: left;
+    width: 290%;
+    padding:10px 25px ;
+    font-size: 15px;
+    border: 0;
+    border-right: 1px solid gray;
+    border-radius: 20px 0 0 20px;
+}
+.navbar-search-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+}
+.navbar-mike{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.navbar-cam-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.navbar-msg-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.navbar-profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+//responsive..................
+
+@media(min-width:320px){
+
+    .navbar-col-1{
+        width: 40%;
+    }
+    .navbar-menu{
+        display: none;
+    }
+    .navbar-col-2{
+        width: 13%;
+    }
+   .navbar-search-input{
+    display: none;
+   }
+   .navbar-search-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 3px 8px;
+    }
+    .navbar-mike{
+        display: none;
+    }
+    .navbar-cam-icon{
+        display: none;
+    }
+}
+
+@media(min-width:690px){
+    .navbar-col-1{
+        width: 20%;
+    }
+    .navbar-menu{
+        display: block;
+    }
+    .navbar-col-2{
+        width: 40%;
+    }
+   .navbar-search-input{
+    display: block;
+   }
+   .navbar-search-card{
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    padding: 0;
+}
+    .navbar-mike{
+        display: block;
+    }
+    .navbar-cam-icon{
+        display: block;
+    }
+}
+
+@media(min-width:1024px){
+    .navbar-col-1{
+        width: 12%;
+        padding: 0;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .navbar-col-2{
+        width: 40%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
